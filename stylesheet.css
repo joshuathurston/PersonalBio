@@ -1,0 +1,44 @@
+h1.pageTitle{
+  text-align: center;
+  background-color: lightgrey;
+  margin: 0;
+  Height: auto;
+}
+
+div {
+  margin-left:200px;
+  height: 100%;
+}
+
+p.imageShift {
+
+  margin-left: 320px;
+ 
+
+}
+
+ul.nav {
+  list-style-type: none;
+  width: 200px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
+  overflow: auto;
+  position: fixed;
+}
+
+li a {
+  display: block;
+  width: 200px;
+}
+
+li a.active {
+  color:white;
+  background-color:red;
+}
+
+li a:hover:not(.active) {
+  color:white;
+  background-color:green;
+}
