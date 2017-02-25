@@ -5,14 +5,18 @@ h1.pageTitle{
   Height: auto;
 }
 
+h3 {
+  text-decoration:underline;  
+}
+
 div {
   margin-left:200px;
   height: 100%;
 }
 
-p.imageShift {
+.imageShift {
 
-  margin-left: 320px;
+  margin-left: 160px;
  
 
 }
@@ -41,4 +45,10 @@ li a.active {
 li a:hover:not(.active) {
   color:white;
   background-color:green;
+}
+
+img#image {
+  margin: 0 0 10px 10px;
+  float: left;
+  overflow: auto;
 }
