@@ -1,4 +1,4 @@
-h1.pageTitle{
+h1.pageTitle {
   text-align: center;
   background-color: lightgrey;
   margin: 0;
@@ -14,11 +14,12 @@ div {
   height: 100%;
 }
 
+span {
+  margin-left: 20px;
+}
+
 .imageShift {
-
   margin-left: 160px;
- 
-
 }
 
 ul.nav {
